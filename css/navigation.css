@@ -1,0 +1,42 @@
+.navigation__list {
+  padding: 0;
+  text-align: center;
+  user-select: none;
+}
+
+.navigation__listItem {
+  display: inline-block;
+  min-width: 30%;
+  margin: 0 1%;
+  white-space: nowrap;
+}
+
+.navigation__link {
+  display: block;
+  width: 100%;
+  padding: 10px 1px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 3px 1px 8px #222;
+  background-color: #444;
+  color: #eee;
+  text-decoration: none;
+  font-weight: bold;
+  user-select: none;
+}
+
+.navigation__link:visited {
+  background-color: #444;
+}
+
+.navigation__link:focus {
+  outline: 4px solid #888;
+}
+
+.navigation__link:hover {
+  background-color: #666;
+}
+
+.navigation__link:active {
+  background-color: #222;
+}

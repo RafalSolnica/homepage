@@ -1,0 +1,27 @@
+.article {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.article__header {
+  text-shadow: 1px 1px 5px #888;
+  padding: 5px 0 0;
+}
+
+.article__paragraph {
+  text-align: justify;
+  line-height: 1.8;
+  margin: 10px 0 30px;
+}
+
+.article__blueCode {
+  font-weight: bold;
+  text-shadow: none;
+  color: #3030ca;
+}
+
+.article__yellowCode {
+  font-weight: bold;
+  text-shadow: none;
+  color: #c2871b;
+}

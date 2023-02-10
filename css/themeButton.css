@@ -1,0 +1,44 @@
+.themeButton {
+  background-color: #222;
+  color: #ccc;
+  min-width: 150px;
+  margin: 10px 2.5%;
+  padding: 10px 5px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
+
+.themeButton--dark {
+  background: #aaa;
+  color: #222;
+}
+
+.themeButton:focus {
+  background-color: #444;
+  outline: 5px solid #252525;
+}
+
+.themeButton:hover {
+  background-color: #444;
+}
+
+.themeButton:active {
+  background-color: #666;
+}
+
+.themeButton--dark:focus {
+  background-color: #666;
+  outline: 5px solid #ccc;
+}
+
+.themeButton--dark:hover {
+  background-color: #888;
+}
+
+.themeButton--dark:active {
+  background-color: #666;
+}
