@@ -1,5 +1,7 @@
 # Rafał Solnica - moja pierwsza strona
 
+![Nie do końca ja](./images/Zote.jpg)
+
 ## Demo
 
 https://rafalsolnica.github.io/homepage/
