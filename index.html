@@ -1,310 +1,301 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="#" type="image/x-icon" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/themeButton.css" />
-    <link rel="stylesheet" href="./css/navigation.css" />
-    <link rel="stylesheet" href="./css/section.css" />
-    <link rel="stylesheet" href="./css/article.css" />
-    <link rel="stylesheet" href="./css/table.css" />
-    <link rel="stylesheet" href="./css/footer.css" />
 
-    <title>Moja pierwsza strona</title>
-    <script src="./js/script.js" defer></script>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="#" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/themeButton.css" />
+  <link rel="stylesheet" href="./css/navigation.css" />
+  <link rel="stylesheet" href="./css/section.css" />
+  <link rel="stylesheet" href="./css/article.css" />
+  <link rel="stylesheet" href="./css/table.css" />
+  <link rel="stylesheet" href="./css/footer.css" />
 
-  <body class="container js-container container--dark">
-    <button class="themeButton js-themeButton themeButton--dark">
-      <span class="themeButton__text js-themeButton__text"> Tryb dzienny </span>
-    </button>
+  <title>Moja pierwsza strona</title>
+  <script src="./js/script.js" defer></script>
+</head>
 
-    <nav class="navigation">
-      <ul class="navigation__list">
-        <li class="navigation__listItem">
-          <a class="navigation__link" href="#o-mnie"> O mnie </a>
-        </li>
-        <li class="navigation__listItem">
-          <a class="navigation__link" href="#zainteresowania"> Hobby </a>
-        </li>
-        <li class="navigation__listItem">
-          <a class="navigation__link" href="#zakończenie"> Koniec </a>
-        </li>
-      </ul>
-    </nav>
+<body class="container js-container container--dark">
+  <button class="themeButton js-themeButton themeButton--dark">
+    <span class="themeButton__text js-themeButton__text"> Tryb dzienny </span>
+  </button>
 
-    <main>
-      <section class="section" id="o-mnie">
-        <h2 class="section__header js-section__header section__header--dark">
-          Moja <em>nie do końca</em> pierwsza strona
-        </h2>
+  <nav class="navigation">
+    <ul class="navigation__list">
+      <li class="navigation__listItem">
+        <a class="navigation__link" href="#o-mnie"> O mnie </a>
+      </li>
+      <li class="navigation__listItem">
+        <a class="navigation__link" href="#zainteresowania"> Hobby </a>
+      </li>
+      <li class="navigation__listItem">
+        <a class="navigation__link" href="#zakończenie"> Koniec </a>
+      </li>
+    </ul>
+  </nav>
 
-        <div class="section__imgHolder">
-          <img
-            src="https://pbs.twimg.com/profile_images/1257153280284569601/583fBc2S_400x400.jpg"
-            alt="Nie do końca ja"
-            class="section__profileImg"
-          />
+  <main>
+    <section class="section" id="o-mnie">
+      <h2 class="section__header js-section__header section__header--dark">
+        Moja <em>nie do końca</em> pierwsza strona
+      </h2>
+
+      <div class="section__imgHolder">
+        <img src="https://pbs.twimg.com/profile_images/1257153280284569601/583fBc2S_400x400.jpg" alt="Nie do końca ja"
+          class="section__profileImg" />
+      </div>
+
+      <h2 class="section__header js-section__header section__header--dark">
+        <em>Nie do końca</em> krótko o mnie
+      </h2>
+
+      <article class="article">
+        <h3 class="article__header">Kim jestem</h3>
+        <p class="article__paragraph">
+          Nazywam się <strong>Rafał Solnica</strong>, jestem z Opoczna i mam
+          23 lata. Skończyłem technikum na kierunku informatycznym po
+          czymwybrałem się na studia na politechnikę Łódzką, które niestety
+          nie spełniły moich oczekiwań i dodając do tego sytuację covidową
+          stojąc przed moją drugą sesją stwierdziłem, że nie zmierza to do
+          niczego sensownego. Probowałem nauki programowania na własną rękę
+          ale zaprowadziło mnie to do kolejnej decyzji jaką było porzucenie
+          języka <i>C++</i> i szukanie czegoś nowego.
+        </p>
+
+        <h3 class="article__header">Front-end</h3>
+        <p class="article__paragraph">
+          Tu moja przygoda z front-endem zaczyna się na nowo. Na nowo bo kilka
+          stron udało mi się zrobić podczas nauki do kwalifikacji E14 w
+          technikum. Pewnego razu oglądając wieczorem film na YT wpadłem na
+          reklamę <span class="article__blueCode">you</span><span class="article__yellowCode">Code</span> i pomyślałem,
+          że
+          udział w tym kursie może być idealną szansą na załatanie luk w mojej
+          wiedzy na temat front-endu i zwieńczeniem mojej nauki w jakiś
+          bardziej zorganizowany sposób (gdyż moja nauka głównie polegała na
+          chaotycznym oglądaniu tutoriali na YT)
+        </p>
+
+        <h3 class="article__header">To <em>nie do końca</em> ja</h3>
+        <p class="article__paragraph">
+          Jak możecie się domyślić postać z ilustracji powyżej to
+          <em>nie do końca</em> jestem ja ale mój wygląd po przebudzeniu z
+          rana w dużym stopniu pokrywa się z ów postacią dlatego zwykłem
+          używać jej jako avatara w internecie. Raczej nie przepadam za
+          robieniem sobie zdjęć w związku z czym w momencie robienia tej
+          strony niestety nie posiadam albumu swoich fotografii pod rękom więc
+          zdecydowałem się użyć tego obrazka przedstawiającego
+          <i>Zote'a</i>-moją ulubioną postać z mojej ulubionej gry
+          <i>Hollow Knight</i>. W najbliższej przyszłości jak znajdę odrobinę
+          motywacji żeby się ogarnąć oraz nie wyglądać jak 7 nieszczęść to
+          zrobię jakieś zdjęcie i wstawie je tu oraz na Slacku.
+        </p>
+      </article>
+    </section>
+
+    <section class="section" id="zainteresowania">
+      <h2 class="section__header js-section__header section__header--dark">
+        Moje zainteresowania
+      </h2>
+
+      <article class="article">
+        <h3 class="article__header">Tak jestem geekiem, aż tak widać?</h3>
+        <p class="article__paragraph">
+          Na tą chwilę moim głównym zainteresowaniem są gry komputerowe oraz
+          gry karciane (zarówno cyfrowe jak i tradycyjne kartoniki), które
+          pożerają znaczną część mojego czasu wolnego ale prócz grania w gry
+          lubię czytać książki - głownie o tematyce <i>fantasy</i>. Gdy znajdę
+          coś ciekawego do obejrzenia to zdarza mi się oglądać filmy i seriale
+          a w ostatnim czasie również anime. Moja ulubiona gra to jak
+          wspomniałem wyżej <i>Hollow Knight</i> ale tuż zanim stoi cudowna
+          trylogia Wiedźmińska, Terraria czy obie gry z duszkiem <i>Orim</i> w
+          roli głównej a już niedługo do tego grona zapewne dołączy Cyberpunk
+          2077, Dark Souls 3 i Blasphemous. Moja ulubiona karcianka TCG to
+          Magic: The Gathering, ulubiony format to EDH, a ulubiony commander
+          to <i>Kykar, Wind's Fury</i>.
+        </p>
+
+        <div class="tableContainer">
+          <table class="table">
+            <caption class="table__caption js-table__caption table__caption--dark">
+              Moje ulubione gry komputerowe
+            </caption>
+            <thead>
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="col">
+                  Gra
+                </th>
+                <th class="table__cell table__cell--header" scope="col">
+                  Studio
+                </th>
+                <th class="table__cell table__cell--header" scope="col">
+                  Wydawca
+                </th>
+                <th class="table__cell table__cell--header" scope="col">
+                  Gatunek
+                </th>
+                <th class="table__cell table__cell--header" scope="col">
+                  Rok wydania
+                </th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Hollow Knight
+                </th>
+                <td class="table__cell">Team Cherry</td>
+                <td class="table__cell">Team Cherry</td>
+                <td class="table__cell">Metroidvania</td>
+                <td class="table__cell">2017</td>
+              </tr>
+
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Wiedźmin 3: Dziki Gon
+                </th>
+                <td class="table__cell">CD Projekt Red</td>
+                <td class="table__cell">CD Projekt Red</td>
+                <td class="table__cell">Open world action RPG</td>
+                <td class="table__cell">2015</td>
+              </tr>
+
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Wiedźmin 2: Zabójcy królów
+                </th>
+                <td class="table__cell">CD Projekt Red</td>
+                <td class="table__cell">CD Projekt Red</td>
+                <td class="table__cell">Action RPG</td>
+                <td class="table__cell">2011</td>
+              </tr>
+
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Wiedźmin
+                </th>
+                <td class="table__cell">CD Projekt Red</td>
+                <td class="table__cell">Atari</td>
+                <td class="table__cell">Action RPG</td>
+                <td class="table__cell">2007</td>
+              </tr>
+
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Terraria
+                </th>
+                <td class="table__cell">Re-Logic</td>
+                <td class="table__cell">Re-Logic</td>
+                <td class="table__cell">Survival, Sandbox</td>
+                <td class="table__cell">2011</td>
+              </tr>
+
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Ori and the Blind Forest
+                </th>
+                <td class="table__cell">Moon Studios</td>
+                <td class="table__cell">Microsoft Studios</td>
+                <td class="table__cell">Metroidvania</td>
+                <td class="table__cell">2015</td>
+              </tr>
+
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Ori and the Will of the Wisps
+                </th>
+                <td class="table__cell">Moon Studios</td>
+                <td class="table__cell">Microsoft Studios</td>
+                <td class="table__cell">Metroidvania</td>
+                <td class="table__cell">2020</td>
+              </tr>
+
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Hades
+                </th>
+                <td class="table__cell">Supergiant Games</td>
+                <td class="table__cell">Supergiant Games</td>
+                <td class="table__cell">Rogue-lite</td>
+                <td class="table__cell">2018</td>
+              </tr>
+
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Darkest Dungeon
+                </th>
+                <td class="table__cell">Red Hook Studios</td>
+                <td class="table__cell">Red Hook Studios</td>
+                <td class="table__cell">Dungeon-crawler</td>
+                <td class="table__cell">2016</td>
+              </tr>
+
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  The Binding of Isaac: Rebirth
+                </th>
+                <td class="table__cell">Edmund McMillen</td>
+                <td class="table__cell">Edmund McMillen</td>
+                <td class="table__cell">Dungeon-crawler, Rogue-lite</td>
+                <td class="table__cell">2014</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
+      </article>
+    </section>
 
-        <h2 class="section__header js-section__header section__header--dark">
-          <em>Nie do końca</em> krótko o mnie
-        </h2>
+    <section class="section" id="zakończenie">
+      <h2 class="section__header js-section__header section__header--dark">
+        Na <em>koniec</em>
+      </h2>
 
-        <article class="article">
-          <h3 class="article__header">Kim jestem</h3>
-          <p class="article__paragraph">
-            Nazywam się <strong>Rafał Solnica</strong>, jestem z Opoczna i mam
-            23 lata. Skończyłem technikum na kierunku informatycznym po
-            czymwybrałem się na studia na politechnikę Łódzką, które niestety
-            nie spełniły moich oczekiwań i dodając do tego sytuację covidową
-            stojąc przed moją drugą sesją stwierdziłem, że nie zmierza to do
-            niczego sensownego. Probowałem nauki programowania na własną rękę
-            ale zaprowadziło mnie to do kolejnej decyzji jaką było porzucenie
-            języka <i>C++</i> i szukanie czegoś nowego.
-          </p>
+      <article class="article">
+        <h3 class="article__header">W przyszłości</h3>
+        <p class="article__paragraph">
+          Planuję modyfikować i rozwijać tę stronę wraz z przechodzeniem przez
+          kolejne moduły kursu (miejmy nadzieję, że na lepsze) więc moze
+          kiedyś będzie ona wyglądać w miarę profesjonalnie a w międzyczasie
+          mam nadzieję, że moja <em>nie do końca</em> pierwsza strona się
+          komuś spodobała oraz że ten motyw z <em>nie do końca</em> nie
+          doprowadził czytających do bólu głowy i ataku cringe'u.
+        </p>
+      </article>
+    </section>
 
-          <h3 class="article__header">Front-end</h3>
-          <p class="article__paragraph">
-            Tu moja przygoda z front-endem zaczyna się na nowo. Na nowo bo kilka
-            stron udało mi się zrobić podczas nauki do kwalifikacji E14 w
-            technikum. Pewnego razu oglądając wieczorem film na YT wpadłem na
-            reklamę <span class="article__blueCode">you</span
-            ><span class="article__yellowCode">Code</span> i pomyślałem, że
-            udział w tym kursie może być idealną szansą na załatanie luk w mojej
-            wiedzy na temat front-endu i zwieńczeniem mojej nauki w jakiś
-            bardziej zorganizowany sposób (gdyż moja nauka głównie polegała na
-            chaotycznym oglądaniu tutoriali na YT)
-          </p>
+    <section class="section" id="test">
+      <h2 class="section__header js-section__header section__header--dark">
+        Test
+      </h2>
 
-          <h3 class="article__header">To <em>nie do końca</em> ja</h3>
-          <p class="article__paragraph">
-            Jak możecie się domyślić postać z ilustracji powyżej to
-            <em>nie do końca</em> jestem ja ale mój wygląd po przebudzeniu z
-            rana w dużym stopniu pokrywa się z ów postacią dlatego zwykłem
-            używać jej jako avatara w internecie. Raczej nie przepadam za
-            robieniem sobie zdjęć w związku z czym w momencie robienia tej
-            strony niestety nie posiadam albumu swoich fotografii pod rękom więc
-            zdecydowałem się użyć tego obrazka przedstawiającego
-            <i>Zote'a</i>-moją ulubioną postać z mojej ulubionej gry
-            <i>Hollow Knight</i>. W najbliższej przyszłości jak znajdę odrobinę
-            motywacji żeby się ogarnąć oraz nie wyglądać jak 7 nieszczęść to
-            zrobię jakieś zdjęcie i wstawie je tu oraz na Slacku.
-          </p>
-        </article>
-      </section>
+      <article class="article">
+        <h3 class="article__header">Test repozytoria Git</h3>
+        <p class="article__paragraph">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit
+          recusandae atque commodi minus eius architecto deserunt rerum
+          impedit amet quo, reprehenderit ducimus quae, esse ipsum
+          necessitatibus id. Quidem cumque velit delectus odit nisi quasi
+          placeat aut iusto voluptates ipsam inventore, laboriosam sequi
+          molestias nesciunt nulla. Esse fugit quidem incidunt earum. Minus,
+          quia? Dignissimos, cum quaerat aliquam nam repellendus natus
+          praesentium, maiores quas asperiores illum quis vero voluptate
+          distinctio soluta laudantium adipisci pariatur quia enim assumenda,
+          deserunt quasi magni!
+        </p>
+      </article>
+    </section>
+  </main>
 
-      <section class="section" id="zainteresowania">
-        <h2 class="section__header js-section__header section__header--dark">
-          Moje zainteresowania
-        </h2>
+  <footer class="footer">Copyright 2023 Rafał Solnica.</footer>
+</body>
 
-        <article class="article">
-          <h3 class="article__header">Tak jestem geekiem, aż tak widać?</h3>
-          <p class="article__paragraph">
-            Na tą chwilę moim głównym zainteresowaniem są gry komputerowe oraz
-            gry karciane (zarówno cyfrowe jak i tradycyjne kartoniki), które
-            pożerają znaczną część mojego czasu wolnego ale prócz grania w gry
-            lubię czytać książki - głownie o tematyce <i>fantasy</i>. Gdy znajdę
-            coś ciekawego do obejrzenia to zdarza mi się oglądać filmy i seriale
-            a w ostatnim czasie również anime. Moja ulubiona gra to jak
-            wspomniałem wyżej <i>Hollow Knight</i> ale tuż zanim stoi cudowna
-            trylogia Wiedźmińska, Terraria czy obie gry z duszkiem <i>Orim</i> w
-            roli głównej a już niedługo do tego grona zapewne dołączy Cyberpunk
-            2077, Dark Souls 3 i Blasphemous. Moja ulubiona karcianka TCG to
-            Magic: The Gathering, ulubiony format to EDH, a ulubiony commander
-            to <i>Kykar, Wind's Fury</i>.
-          </p>
-
-          <div class="tableContainer">
-            <table class="table">
-              <caption
-                class="table__caption js-table__caption table__caption--dark"
-              >
-                Moje ulubione gry komputerowe
-              </caption>
-              <thead>
-                <tr class="table__row">
-                  <th class="table__cell table__cell--header" scope="col">
-                    Gra
-                  </th>
-                  <th class="table__cell table__cell--header" scope="col">
-                    Studio
-                  </th>
-                  <th class="table__cell table__cell--header" scope="col">
-                    Wydawca
-                  </th>
-                  <th class="table__cell table__cell--header" scope="col">
-                    Gatunek
-                  </th>
-                  <th class="table__cell table__cell--header" scope="col">
-                    Rok wydania
-                  </th>
-                </tr>
-              </thead>
-
-              <tbody>
-                <tr class="table__row">
-                  <th class="table__cell table__cell--header" scope="row">
-                    Hollow Knight
-                  </th>
-                  <td class="table__cell">Team Cherry</td>
-                  <td class="table__cell">Team Cherry</td>
-                  <td class="table__cell">Metroidvania</td>
-                  <td class="table__cell">2017</td>
-                </tr>
-
-                <tr class="table__row">
-                  <th class="table__cell table__cell--header" scope="row">
-                    Wiedźmin 3: Dziki Gon
-                  </th>
-                  <td class="table__cell">CD Projekt Red</td>
-                  <td class="table__cell">CD Projekt Red</td>
-                  <td class="table__cell">Open world action RPG</td>
-                  <td class="table__cell">2015</td>
-                </tr>
-
-                <tr class="table__row">
-                  <th class="table__cell table__cell--header" scope="row">
-                    Wiedźmin 2: Zabójcy królów
-                  </th>
-                  <td class="table__cell">CD Projekt Red</td>
-                  <td class="table__cell">CD Projekt Red</td>
-                  <td class="table__cell">Action RPG</td>
-                  <td class="table__cell">2011</td>
-                </tr>
-
-                <tr class="table__row">
-                  <th class="table__cell table__cell--header" scope="row">
-                    Wiedźmin
-                  </th>
-                  <td class="table__cell">CD Projekt Red</td>
-                  <td class="table__cell">Atari</td>
-                  <td class="table__cell">Action RPG</td>
-                  <td class="table__cell">2007</td>
-                </tr>
-
-                <tr class="table__row">
-                  <th class="table__cell table__cell--header" scope="row">
-                    Terraria
-                  </th>
-                  <td class="table__cell">Re-Logic</td>
-                  <td class="table__cell">Re-Logic</td>
-                  <td class="table__cell">Survival, Sandbox</td>
-                  <td class="table__cell">2011</td>
-                </tr>
-
-                <tr class="table__row">
-                  <th class="table__cell table__cell--header" scope="row">
-                    Ori and the Blind Forest
-                  </th>
-                  <td class="table__cell">Moon Studios</td>
-                  <td class="table__cell">Microsoft Studios</td>
-                  <td class="table__cell">Metroidvania</td>
-                  <td class="table__cell">2015</td>
-                </tr>
-
-                <tr class="table__row">
-                  <th class="table__cell table__cell--header" scope="row">
-                    Ori and the Will of the Wisps
-                  </th>
-                  <td class="table__cell">Moon Studios</td>
-                  <td class="table__cell">Microsoft Studios</td>
-                  <td class="table__cell">Metroidvania</td>
-                  <td class="table__cell">2020</td>
-                </tr>
-
-                <tr class="table__row">
-                  <th class="table__cell table__cell--header" scope="row">
-                    Hades
-                  </th>
-                  <td class="table__cell">Supergiant Games</td>
-                  <td class="table__cell">Supergiant Games</td>
-                  <td class="table__cell">Rogue-lite</td>
-                  <td class="table__cell">2018</td>
-                </tr>
-
-                <tr class="table__row">
-                  <th class="table__cell table__cell--header" scope="row">
-                    Darkest Dungeon
-                  </th>
-                  <td class="table__cell">Red Hook Studios</td>
-                  <td class="table__cell">Red Hook Studios</td>
-                  <td class="table__cell">Dungeon-crawler</td>
-                  <td class="table__cell">2016</td>
-                </tr>
-
-                <tr class="table__row">
-                  <th class="table__cell table__cell--header" scope="row">
-                    The Binding of Isaac: Rebirth
-                  </th>
-                  <td class="table__cell">Edmund McMillen</td>
-                  <td class="table__cell">Edmund McMillen</td>
-                  <td class="table__cell">Dungeon-crawler, Rogue-lite</td>
-                  <td class="table__cell">2014</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </article>
-      </section>
-
-      <section class="section" id="zakończenie">
-        <h2 class="section__header js-section__header section__header--dark">
-          Na <em>koniec</em>
-        </h2>
-
-        <article class="article">
-          <h3 class="article__header">W przyszłości</h3>
-          <p class="article__paragraph">
-            Planuję modyfikować i rozwijać tę stronę wraz z przechodzeniem przez
-            kolejne moduły kursu (miejmy nadzieję, że na lepsze) więc moze
-            kiedyś będzie ona wyglądać w miarę profesjonalnie a w międzyczasie
-            mam nadzieję, że moja <em>nie do końca</em> pierwsza strona się
-            komuś spodobała oraz że ten motyw z <em>nie do końca</em> nie
-            doprowadził czytających do bólu głowy i ataku cringe'u.
-          </p>
-        </article>
-      </section>
-
-      <section class="section" id="test">
-        <h2 class="section__header js-section__header section__header--dark">
-          Test
-        </h2>
-
-        <article class="article">
-          <h3 class="article__header">Test repozytoria Git</h3>
-          <p class="article__paragraph">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit
-            recusandae atque commodi minus eius architecto deserunt rerum
-            impedit amet quo, reprehenderit ducimus quae, esse ipsum
-            necessitatibus id. Quidem cumque velit delectus odit nisi quasi
-            placeat aut iusto voluptates ipsam inventore, laboriosam sequi
-            molestias nesciunt nulla. Esse fugit quidem incidunt earum. Minus,
-            quia? Dignissimos, cum quaerat aliquam nam repellendus natus
-            praesentium, maiores quas asperiores illum quis vero voluptate
-            distinctio soluta laudantium adipisci pariatur quia enim assumenda,
-            deserunt quasi magni!
-          </p>
-        </article>
-      </section>
-    </main>
-
-    <footer class="footer">Copyright 2023 Rafał Solnica.</footer>
-  </body>
 </html>
