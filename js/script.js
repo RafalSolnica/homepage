@@ -1,21 +1,34 @@
-const themeButton = document.querySelector(".js-themeButton");
+{
+  const welcome = () => {
+    console.log("Witam na mojej pierwszej stronie!");
+  };
 
-themeButton.addEventListener("click", () => {
-  const themeButtonText = document.querySelector(".js-themeButton__text");
+  const toggleBackground = (themeButton) => {
+    const container = document.querySelector(".js-container");
+    const tableCaption = document.querySelector(".js-table__caption");
+    const sectionHeaders = document.querySelectorAll(".js-section__header");
+    const themeButtonText = document.querySelector(".js-themeButton__text");
 
-  document.querySelector(".js-container").classList.toggle("container--dark");
+    container.classList.toggle("container--dark");
+    themeButton.classList.toggle("themeButton--dark");
+    tableCaption.classList.toggle("table__caption--dark");
+    sectionHeaders.forEach((header) =>
+      header.classList.toggle("section__header--dark")
+    );
 
-  themeButton.classList.toggle("themeButton--dark");
+    themeButtonText.innerText = container.classList.contains("container--dark")
+      ? (themeButtonText.innerText = "Tryb dzienny")
+      : (themeButtonText.innerText = "Tryb nocny");
+  };
 
-  themeButton.classList.contains("themeButton--dark")
-    ? (themeButtonText.innerText = "Tryb dzienny")
-    : (themeButtonText.innerText = "Tryb nocny");
+  const init = () => {
+    const themeButton = document.querySelector(".js-themeButton");
+    themeButton.addEventListener("click", (e) => {
+      toggleBackground(e.target);
+    });
 
-  document
-    .querySelectorAll(".js-section__header")
-    .forEach((header) => header.classList.toggle("section__header--dark"));
+    welcome();
+  };
 
-  document
-    .querySelector(".js-table__caption")
-    .classList.toggle("table__caption--dark");
-});
+  init();
+}
