@@ -23,8 +23,8 @@
 
   const init = () => {
     const themeButton = document.querySelector(".js-themeButton");
-    themeButton.addEventListener("click", (e) => {
-      toggleBackground(e.target);
+    themeButton.addEventListener("click", () => {
+      toggleBackground(themeButton);
     });
 
     welcome();
