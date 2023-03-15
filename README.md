@@ -4,8 +4,16 @@
 
 ## Opis
 
-Jest to moja pierwsza strona internetowa, która będzie mi służyła do nauki front-endu. Chwilowo znajduję się na niej parę informacji o mnie, moich zainteresowanich i mojej przygodzie z programowaniem ale planuję w przyszłości rozwinąć ją o nową zawartość i nowe funkcje. Będę ją aktualizował w trakcie nauki by jak najlepiej odzwierciedlała stan mojej wiedzy i moich umiejętności.
+Jest to moja pierwsza strona internetowa stworzona podczas kursu front-end YouCode. Aktualnie znajduję się na niej parę informacji o mnie, moich zainteresowanich i mojej przygodzie z programowaniem ale planuję w przyszłości rozwijać ją o nową zawartość i funkcje wraz z głębszym poznawaniem front-endu.
 
 ## Demo
 
 https://rafalsolnica.github.io/homepage/
+
+Do stworzenia strony zostały użyte:
+
+- HTML
+- konwencja BEM
+- CSS
+- JavaScript
+- prosty styl graficzny
