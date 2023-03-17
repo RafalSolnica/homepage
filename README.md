@@ -1,19 +1,19 @@
-# Rafał Solnica - moja pierwsza strona
+# Rafał Solnica - my first webpage
 
-![Nie do końca ja](./images/Zote.jpg)
+![Not exactly me](./images/Zote.jpg)
 
-## Opis
+## Description
 
-Jest to moja pierwsza strona internetowa stworzona podczas kursu front-end YouCode. Aktualnie znajduję się na niej parę informacji o mnie, moich zainteresowanich i mojej przygodzie z programowaniem ale planuję w przyszłości rozwijać ją o nową zawartość i funkcje wraz z głębszym poznawaniem front-endu.
+Welcome to my first website created as a homework during the front-end YouCOde course. At the moment it contains some information about me, stuff I'm interested in and also my journey to becoming front-end developer but in near future I'd like to upodate it with new content to be a reflection of my skills and knowledge about front-end.
 
 ## Demo
 
 https://rafalsolnica.github.io/homepage/
 
-Do stworzenia strony zostały użyte:
+To create this website I used:
 
 - HTML
-- konwencja BEM
+- BEM convention
 - CSS
 - JavaScript
-- prosty styl graficzny
+- simple graphic style
