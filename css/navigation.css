@@ -1,19 +1,23 @@
+.navigation {
+  margin: 0 2.5%;
+}
+
 .navigation__list {
   padding: 0;
-  text-align: center;
   user-select: none;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
 
 .navigation__listItem {
-  display: inline-block;
-  min-width: 30%;
-  margin: 0 1%;
+  flex: 0 1 32.5%;
+  text-align: center;
   white-space: nowrap;
 }
 
 .navigation__link {
   display: block;
-  width: 100%;
   padding: 10px 1px;
   border-radius: 5px;
   border: none;

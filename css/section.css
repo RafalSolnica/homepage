@@ -1,6 +1,7 @@
 .section__header {
   background-color: #ccc;
   color: #222;
+  text-transform: uppercase;
   text-shadow: 1px 1px 5px #888;
   box-shadow: inset 1px 1px 20px #111;
   border-radius: 10px;

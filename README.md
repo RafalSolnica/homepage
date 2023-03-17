@@ -12,8 +12,7 @@ https://rafalsolnica.github.io/homepage/
 
 To create this website I used:
 
-- HTML
-- BEM convention
-- CSS
-- JavaScript
+- HTML, BEM convention
+- CSS, normalize.css, Flexbox
+- JavaScript ES6+ features
 - simple graphic style

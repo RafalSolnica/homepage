@@ -1,8 +1,8 @@
 .themeButton {
   background-color: #222;
   color: #ccc;
-  min-width: 150px;
-  margin: 10px 2.5%;
+  width: 150px;
+  margin: 20px 2.5% 10px;
   padding: 10px 5px;
   border-radius: 10px;
   border: none;
@@ -10,11 +10,7 @@
   font-weight: bold;
   cursor: pointer;
   user-select: none;
-}
-
-.themeButton--dark {
-  background: #aaa;
-  color: #222;
+  align-self: flex-start;
 }
 
 .themeButton:focus {
@@ -28,6 +24,11 @@
 
 .themeButton:active {
   background-color: #666;
+}
+
+.themeButton--dark {
+  background: #aaa;
+  color: #222;
 }
 
 .themeButton--dark:focus {
